@@ -1,0 +1,128 @@
+body{
+    font-family: arial, sans-serif;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.bottom{
+    position: absolute;
+    top: 150px;
+    left: 340px;
+}
+.btn{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: medium;
+}
+.btn:hover{ 
+    background: rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+
+#txtBusca{
+    position: relative;
+    top: 149px;
+    left: 120px;
+}
+
+.img{
+    position: relative;
+    left: 40%;
+    bottom: 70%;
+}
+.menu{
+    background: rgb(236, 76, 76);
+    width: 920px;
+    list-style: none;
+    padding: 2%;
+    overflow:auto;
+}
+
+.nav-lista{
+    color: white;
+    float: left;
+    font-weight: bold;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.banner img{
+    width: 960px;
+    height: 70%;
+    text-align: center;
+}
+.container{
+    overflow: auto;
+}
+.container div{
+    width: 960px;
+    margin-top: 30px;
+}
+.img1{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+}
+.img2{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+}
+.img3{
+    float: left;
+    width: 32%;
+}
+
+.card-deck{
+    margin-top: 20px;
+    overflow: auto;
+}
+.card{
+    border: solid 1px #ccc;
+    width: 24%;
+    float: left;
+    margin-right: 7px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.card-text{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.listas{
+    background: rgb(236, 76, 76);
+    margin-top: 60px;
+    float: left;
+    height: 200px;
+    width: 25%;
+    text-align: center;
+}
+.listas a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: 5px;
+}
+.lista a:hover{
+    text-decoration: underline;
+}
+
+.listas ul{
+    list-style-type: none;
+}
+
+.listas h5{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top:-10px;
+    left: 20px;
+}
